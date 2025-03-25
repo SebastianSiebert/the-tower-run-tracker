@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTower.RunTracker", "TheTower.RunTracker\TheTower.RunTracker.csproj", "{DA16794B-64C0-4531-9DD8-8FC970B7A127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2432A360-A37E-437E-9235-4458770A4DFF}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA16794B-64C0-4531-9DD8-8FC970B7A127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA16794B-64C0-4531-9DD8-8FC970B7A127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA16794B-64C0-4531-9DD8-8FC970B7A127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA16794B-64C0-4531-9DD8-8FC970B7A127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
